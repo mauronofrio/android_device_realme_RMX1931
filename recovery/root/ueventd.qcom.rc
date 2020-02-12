@@ -415,3 +415,6 @@ firmware_directories /vendor/firmware_mnt/image/
 #long.gao@SRC.hypnus, 2018/07/12, Add for dev hypnus
 /dev/hypnus            0660   system     system
 #endif /* VENDOR_EDIT */
+
+# AW8697
+/dev/aw8697_haptic        0660    system     audio
