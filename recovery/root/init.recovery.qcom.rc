@@ -34,6 +34,7 @@ on fs
     chmod 0664 /dev/ion
     chown system system /dev/ion
     install_keyring
+    write /sys/class/power_supply/usb/otg_switch 1
 
 on init
     mkdir /system/bin
